@@ -6,6 +6,6 @@
 
 # caldera-view
 
-Simple view abstraction layer, part of Vecode Caldera
+View abstraction layer, part of Vecode Caldera
 
 Copyright &copy; 2022 Vecode. All Rights Reserved.

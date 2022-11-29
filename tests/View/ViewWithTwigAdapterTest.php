@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 /**
  * Caldera View
- * Simple view abstraction layer, part of Vecode Caldera
+ * View abstraction layer, part of Vecode Caldera
  * @author  biohzrdmx <github.com/biohzrdmx>
  * @copyright Copyright (c) 2022 Vecode. All rights reserved
  */
