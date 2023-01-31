@@ -32,6 +32,7 @@ class ViewWithTwigAdapterTest extends TestCase {
 		$cache_dir = BASE_DIR . '/tests/output';
 		$adapter = new TwigAdapter($template_dir, $cache_dir);
 		$view = new View($adapter);
+		$this->assertInstanceOf(TwigAdapter::class, $view->getAdapter());
 		$template = $view->template('simple')
 			->with('num', 5)
 			->render();

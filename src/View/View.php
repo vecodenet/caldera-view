@@ -42,6 +42,14 @@ class View {
 	}
 
 	/**
+	 * Get AdapterInterface implementation
+	 * @return AdapterInterface
+	 */
+	public function getAdapter(): AdapterInterface {
+		return $this->adapter;
+	}
+
+	/**
 	 * Set the view template
 	 * @param  string $template Template name
 	 * @return $this

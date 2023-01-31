@@ -32,6 +32,7 @@ class ViewWithBladeOneAdapterTest extends TestCase {
 		$cache_dir = BASE_DIR . '/tests/output';
 		$adapter = new BladeOneAdapter($template_dir, $cache_dir);
 		$view = new View($adapter);
+		$this->assertInstanceOf(BladeOneAdapter::class, $view->getAdapter());
 		$template = $view->template('simple')
 			->with('num', 5)
 			->render();
